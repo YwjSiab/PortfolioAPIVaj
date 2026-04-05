@@ -22,7 +22,7 @@ builder.Services.AddCors(options =>
         policy
             .WithOrigins(
                 "http://localhost:4200",
-                "https://your-angular-site.onrender.com"
+                "https://portfolioapivaj.onrender.com"
             )
             .AllowAnyHeader()
             .AllowAnyMethod();
