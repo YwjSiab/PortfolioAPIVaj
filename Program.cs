@@ -22,7 +22,8 @@ builder.Services.AddCors(options =>
         policy
             .WithOrigins(
                 "http://localhost:4200",
-                "https://ntc-portfolio-vaj.infinityfreeapp.com"
+                "https://ntc-portfolio-vaj.infinityfreeapp.com",
+                "http://localhost:5173/"
             )
             .AllowAnyHeader()
             .AllowAnyMethod();
