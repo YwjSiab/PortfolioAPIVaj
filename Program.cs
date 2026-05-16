@@ -23,7 +23,7 @@ builder.Services.AddCors(options =>
             .WithOrigins(
                 "http://localhost:4200",
                 "https://ntc-portfolio-vaj.infinityfreeapp.com",
-                "http://localhost:5173".
+                "http://localhost:5173",
                 "http://localhost:8081"
             )
             .AllowAnyHeader()
